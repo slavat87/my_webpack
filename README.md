@@ -2,17 +2,22 @@
 Создаем репозиторий на GitHub с двумя файлами
 .gitignore
 MIT License
+
 Клонируем репозиторий проекта на локальный компьютер, командой: 
 git clone url_repo 
+
 в консоли Git Bash, открытой в отведенной папке или диске на вашем компьютере
 Заходим внутрь клонированного репозитория, командой: 
 cd repo_name 
+
 в консоли Git Bash
 Открываем папку проекта в редакторе кода VSCode, командой:	
  code .
+
 Открываем TERMINAL в редакторе кода VSCode (внизу окна редактора)
 Инициализируем (создаем) файл package.json в нашем проекте, командой: 
 npm init -y 
+
 в TERMINAL - слева в структуре проекта должен появится файл package.json
 Устанавливаем пакеты Webpack через TERMINAL, командой: 
 npm install webpack@4.44.1 webpack-cli@3.3.12 webpack-dev-server@3.11.0 webpack-merge@5.1.4
@@ -207,3 +212,7 @@ module.exports = (env) => ({
     new OptimizeCssAssetsPlugin(),
   ],
 });
+
+
+
+
