@@ -173,11 +173,6 @@ module.exports = (env) => ({
  
 
 
-
-
-
-
-
 production.config.js  (в папке build-utils)
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
